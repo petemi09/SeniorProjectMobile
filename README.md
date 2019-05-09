@@ -3,7 +3,7 @@
 
 [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![IOS 10.0+](https://img.shields.io/badge/IOS-10.0-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
-This is the repository to the mobile side of the Track Tracking application. This is intended for track athletes to keep track of thier times and record them. This application is written in Swift and is compiled in xcode 4.0. latest version of IOS that is compatiable is 10.0 and up.
+This is the repository to the mobile side of the Track Tracking application. This is intended for track athletes to keep track of thier times and record them. This application is written in Swift and is compiled in xcode, with swift v4.0. latest version of IOS that is compatiable is 10.0+.
 
 ## Getting Started
 
@@ -23,9 +23,12 @@ installing cocopods for extra 3rd party support
 
 A step by step series of examples that tell you how to get the IOS application running
 
+first go out to apple.ccom and search fot the Xcode download
+* [Xcode](https://developer.apple.com/xcode/) - IDE and compiler used to create this project
 
-
-End with an example of getting some data out of the system or using it for a little demo
+once Xcode has been downloaded we then will need to go out to get our CocoPods for 3rd party support.
+        all CocoPods can be found on [CocoPods](https://cocoapods.org)
+        
 
 ## Running the tests
 
