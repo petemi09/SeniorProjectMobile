@@ -59,61 +59,37 @@ once Xcode has been downloaded we then will need to go out to get our CocoPods f
    Once we have the Podfile setup go back to the terminal and enter "pod install", this will install all the necesary           requirements to run the project. Once the terminal is done go to the folder directory and from now on open the "SeniorProject.xcworkspace" file.
    
 Once in that folder go into the info.plist and add the following to the Information Property List by hitting the plus icon.
-Then in that new line that was created go into it and change it to "App Transport Security Settings", then again hit the   plus icon and add "Allow Arbitrary Loads" and change the drop down value menu to "YES".
+Then in that new line that was created go into it and change it to "App Transport Security Settings", then again hit the   plus icon and add "Allow Arbitrary Loads" and change the drop down value menu to "YES" (example below).
+
+![alt text](https://github.com/petemi09/SeniorProjectMobile/blob/master/Other%20Projects%20that%20helped%20me%20create%20this%20application/Screen%20Shot%202019-05-09%20at%209.01.56%20AM.png)
 
 ## Compiling and running the App
 
-In Xcode in the upper left hand corner you will see a 
+In Xcode in the upper left hand corner you will see a play button select what version of Iphone you would like to simulate (example Iphone XR) and hit the play button to compile and run the project
+
 ![alt text](https://github.com/petemi09/SeniorProjectMobile/blob/master/Other%20Projects%20that%20helped%20me%20create%20this%20application/Screen%20Shot%202019-05-09%20at%209.01.27%20AM.png)
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+thats it the simulator will begin to run and then the app will launch. Have fun with this project feel free to add and modify to your prefrences.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Intital deployment was Iphone XR, firmware 12.0, swift 4.0
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Xcode](https://developer.apple.com/xcode/) - IDE
+* [CocoPods](https://cocoapods.org) - Dependency Management
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* **Mitchell Petellin** - *Initial work* - [PurpleBooth](https://github.com/petemi09)
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apple License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Udemey
+* Stack Overflow
+* And the almighty Youtube
