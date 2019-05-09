@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		67099F2622555F9700BE072A /* StopWatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67099F2522555F9700BE072A /* StopWatchVC.swift */; };
-		67099F282255899000BE072A /* contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67099F272255899000BE072A /* contents.swift */; };
-		67099F2A22558DF900BE072A /* concrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67099F2922558DF900BE072A /* concrete.swift */; };
 		6710934F2262C7B10074BB45 /* NewUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710934E2262C7B10074BB45 /* NewUserVC.swift */; };
 		671093512262ECB00074BB45 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671093502262ECB00074BB45 /* LoginVC.swift */; };
 		672D183B22564A3A0066F282 /* backupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672D183A22564A3A0066F282 /* backupVC.swift */; };
@@ -26,6 +24,8 @@
 		6730C9632254F993000D564C /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730C9622254F993000D564C /* RecordsVC.swift */; };
 		6730C9672255197C000D564C /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6730C9662255197C000D564C /* constants.swift */; };
 		6736A707226A2B57000BCF62 /* recordsV2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736A706226A2B57000BCF62 /* recordsV2VC.swift */; };
+		673761EC2283BBA700B18EF3 /* stopwatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673761EB2283BBA700B18EF3 /* stopwatchCell.swift */; };
+		67380E2F228117F50013A3AC /* RV2cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67380E2E228117F50013A3AC /* RV2cells.swift */; };
 		FBBE14CE617488F13CE0BBD9 /* Pods_SeniorProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DEAFCB80CF7E4461D1D02A /* Pods_SeniorProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +50,6 @@
 		01DEAFCB80CF7E4461D1D02A /* Pods_SeniorProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeniorProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56024A814880C787448279C5 /* Pods-SeniorProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProject.release.xcconfig"; path = "Target Support Files/Pods-SeniorProject/Pods-SeniorProject.release.xcconfig"; sourceTree = "<group>"; };
 		67099F2522555F9700BE072A /* StopWatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchVC.swift; sourceTree = "<group>"; };
-		67099F272255899000BE072A /* contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contents.swift; sourceTree = "<group>"; };
-		67099F2922558DF900BE072A /* concrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concrete.swift; sourceTree = "<group>"; };
 		6710934E2262C7B10074BB45 /* NewUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserVC.swift; sourceTree = "<group>"; };
 		671093502262ECB00074BB45 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		672D183A22564A3A0066F282 /* backupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backupVC.swift; sourceTree = "<group>"; };
@@ -74,6 +72,8 @@
 		6730C9622254F993000D564C /* RecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
 		6730C9662255197C000D564C /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		6736A706226A2B57000BCF62 /* recordsV2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsV2VC.swift; sourceTree = "<group>"; };
+		673761EB2283BBA700B18EF3 /* stopwatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchCell.swift; sourceTree = "<group>"; };
+		67380E2E228117F50013A3AC /* RV2cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RV2cells.swift; sourceTree = "<group>"; };
 		C01F16997EF6F20CCD7A6936 /* Pods-SeniorProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProject.debug.xcconfig"; path = "Target Support Files/Pods-SeniorProject/Pods-SeniorProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,23 +137,23 @@
 			isa = PBXGroup;
 			children = (
 				67099F2522555F9700BE072A /* StopWatchVC.swift */,
+				673761EB2283BBA700B18EF3 /* stopwatchCell.swift */,
 				6730C92D2254F8CD000D564C /* AppDelegate.swift */,
 				6730C92F2254F8CD000D564C /* MainVC.swift */,
 				6730C9622254F993000D564C /* RecordsVC.swift */,
 				6730C9602254F979000D564C /* RecordCells.swift */,
 				6730C95E2254F95B000D564C /* TimerViewCell.swift */,
-				6730C9662255197C000D564C /* constants.swift */,
 				6730C9312254F8CD000D564C /* Main.storyboard */,
 				6730C9372254F8CE000D564C /* Assets.xcassets */,
 				6730C9392254F8CE000D564C /* LaunchScreen.storyboard */,
 				6730C93C2254F8CE000D564C /* Info.plist */,
 				6730C9342254F8CD000D564C /* SeniorProject.xcdatamodeld */,
-				67099F272255899000BE072A /* contents.swift */,
-				67099F2922558DF900BE072A /* concrete.swift */,
 				672D183A22564A3A0066F282 /* backupVC.swift */,
 				6710934E2262C7B10074BB45 /* NewUserVC.swift */,
 				671093502262ECB00074BB45 /* LoginVC.swift */,
+				6730C9662255197C000D564C /* constants.swift */,
 				6736A706226A2B57000BCF62 /* recordsV2VC.swift */,
+				67380E2E228117F50013A3AC /* RV2cells.swift */,
 			);
 			path = SeniorProject;
 			sourceTree = "<group>";
@@ -326,8 +326,6 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BCryptSwift/BCryptSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
@@ -338,8 +336,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BCryptSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
@@ -377,15 +373,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67099F282255899000BE072A /* contents.swift in Sources */,
 				6730C9302254F8CD000D564C /* MainVC.swift in Sources */,
 				6730C9362254F8CD000D564C /* SeniorProject.xcdatamodeld in Sources */,
 				67099F2622555F9700BE072A /* StopWatchVC.swift in Sources */,
 				6710934F2262C7B10074BB45 /* NewUserVC.swift in Sources */,
-				67099F2A22558DF900BE072A /* concrete.swift in Sources */,
 				6730C95F2254F95B000D564C /* TimerViewCell.swift in Sources */,
 				6730C9672255197C000D564C /* constants.swift in Sources */,
 				6730C9632254F993000D564C /* RecordsVC.swift in Sources */,
+				673761EC2283BBA700B18EF3 /* stopwatchCell.swift in Sources */,
+				67380E2F228117F50013A3AC /* RV2cells.swift in Sources */,
 				671093512262ECB00074BB45 /* LoginVC.swift in Sources */,
 				672D183B22564A3A0066F282 /* backupVC.swift in Sources */,
 				6736A707226A2B57000BCF62 /* recordsV2VC.swift in Sources */,
@@ -567,7 +563,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHD56HT89J;
 				INFOPLIST_FILE = SeniorProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -585,7 +583,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHD56HT89J;
 				INFOPLIST_FILE = SeniorProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

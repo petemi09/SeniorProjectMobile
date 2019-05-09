@@ -7,10 +7,12 @@
 //
 
 import UIKit
-import Parse
+
 
 class contents {
-    let MVC =  RecordsVC()
+    
+    //let MVC =  recordsV2VC.self
+    
     
     var _name: String!
     var _distance: String!
@@ -42,19 +44,27 @@ class contents {
         return _total
     }
     
-    func downloadData(completed: @escaping DownloadComplete) {
-        let query = PFQuery (className: "records")
-        query.findObjectsInBackground { (successFul, errorFull) in
-            if errorFull == nil {
-                //let results = successFul
-                //print(results)
-                print(successFul)
-            }
-            completed()
-        }
-        
-        
-    }
+    //func downloadData(completed: DownloadComplete) {
+//    func downloadData() {
+//        print("HA FUCK YOU")
+//        print("HA FUCK YOU")
+//        print("HA FUCK YOU")
+//    func downloadData() {
+//        //print(MVC.fuck)
+//        let query = PFQuery (className: "records")
+//        //query.findObjectsInBackground { (successFul, errorFull) in
+//        query.getObjectInBackground(withId: "SYRXSIAD9Q") { (successFul, errorFull) in
+//            if errorFull == nil {
+//                //let results = successFul
+//                //print(results)
+//                print("BIG SHITS HERE")
+//                print(successFul as Any)
+//            }
+////            completed()
+//        }
+//
+//
+//    }
     
     
 }

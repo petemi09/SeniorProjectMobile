@@ -6,4 +6,9 @@
 //  Copyright © 2019 Mitchell Petellin. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import Parse
+
+class contents {
+    
+}

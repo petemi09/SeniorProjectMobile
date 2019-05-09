@@ -24,6 +24,7 @@ class RecordsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
         tableView.dataSource = self
         tableView.delegate = self
         

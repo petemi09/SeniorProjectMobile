@@ -10,9 +10,8 @@ pod 'SVProgressHUD'
 pod 'Alamofire'
 pod 'Parse'
 pod 'Parse/UI'
-pod 'Parse/FacebookUtils'
-pod 'Parse/TwitterUtils'
 pod "BCryptSwift"
+
 
 
 end

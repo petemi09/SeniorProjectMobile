@@ -16,13 +16,12 @@ class NewUserVC: UIViewController {
     @IBOutlet weak var UsernameTextField: UITextField!
     @IBOutlet weak var FirstnameTextField: UITextField!
     @IBOutlet weak var LastnameTextField: UITextField!
-    
-    
     @IBOutlet weak var PasswordTextField: UITextField!
     @IBOutlet weak var CheckPasswordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
 
         // Do any additional setup after loading the view.
     }
@@ -33,7 +32,7 @@ class NewUserVC: UIViewController {
 
         //SVProgressHUD.showSuccess(withStatus: "New User Created!")
         if identifier == "segue1" {
-            if (PasswordTextField.text?.isEmpty)! || (UsernameTextField.text?.isEmpty)! || (FirstnameTextField.text?.isEmpty)! || (LastnameTextField.text?.isEmpty)! || PasswordTextField.text != CheckPasswordTextField.text {
+            if (PasswordTextField.text?.isEmpty)! || (UsernameTextField.text?.isEmpty)! || (FirstnameTextField.text?.isEmpty)! ||  (LastnameTextField.text?.isEmpty)! || PasswordTextField.text != CheckPasswordTextField.text {
                 let alertController = UIAlertController(
                     title: "Alert",
                     message: "Whoops something went wrong. Please check all fields are filled and passwords match",
@@ -66,6 +65,7 @@ class NewUserVC: UIViewController {
             object["username"] = (UsernameTextField.text)//?.data(using: .utf8)
             object["firstname"] = (FirstnameTextField.text)//?.data(using: .utf8)
             object["lastname"] = (LastnameTextField.text)//?.data(using: .utf8)
+            
             //object["password"] = hash //(hash).encode(to: PFEncoder.self as! Encoder)
             object["password1"] = binaryData
             object["password"] = binaryData

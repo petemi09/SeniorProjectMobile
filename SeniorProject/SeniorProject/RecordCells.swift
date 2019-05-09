@@ -10,12 +10,13 @@ import UIKit
 
 class RecordCells: UITableViewCell {
     
-    @IBOutlet weak var labelCell: UILabel!
+    //@IBOutlet weak var labelCell: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
     
 
 

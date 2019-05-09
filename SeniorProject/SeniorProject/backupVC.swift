@@ -24,6 +24,7 @@ class backupVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
         nameLabel.isHidden = true
         raceLabel.isHidden = true
         distanceLabel.isHidden = true
