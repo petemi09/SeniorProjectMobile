@@ -81,7 +81,8 @@ Intital deployment was Iphone XR, firmware 12.0, swift 4.0
 * [CocoPods](https://cocoapods.org) - Dependency Management
 
 
-* **Mitchell Petellin** - *Initial work* - [PurpleBooth](https://github.com/petemi09)
+## Creator
+* **Mitchell Petellin** - *SeniorProject* - [Github](https://github.com/petemi09)
 
 
 ## License
