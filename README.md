@@ -61,7 +61,10 @@ once Xcode has been downloaded we then will need to go out to get our CocoPods f
 Once in that folder go into the info.plist and add the following to the Information Property List by hitting the plus icon.
 Then in that new line that was created go into it and change it to "App Transport Security Settings", then again hit the   plus icon and add "Allow Arbitrary Loads" and change the drop down value menu to "YES".
 
-## Running the tests
+## Compiling and running the App
+
+In Xcode in the upper left hand corner you will see a 
+![alt text](https://raw.githubusercontent.com/petemi09/projectname/branch/path/to/img.png)
 
 Explain how to run the automated tests for this system
 
