@@ -54,6 +54,7 @@ once Xcode has been downloaded we then will need to go out to get our CocoPods f
 
         end
         ````
+   Then save the file!
    We install 5 pods which are SVProgressHUD, Alamofire, Parse, Parse/UI, BCryptSwift.
         
    Once we have the Podfile setup go back to the terminal and enter "pod install", this will install all the necesary           requirements to run the project. Once the terminal is done go to the folder directory and from now on open the "SeniorProject.xcworkspace" file.
