@@ -70,7 +70,9 @@ In Xcode in the upper left hand corner you will see a play button select what ve
 
 ![alt text](https://github.com/petemi09/SeniorProjectMobile/blob/master/Other%20Projects%20that%20helped%20me%20create%20this%20application/Screen%20Shot%202019-05-09%20at%209.01.27%20AM.png)
 
-thats it the simulator will begin to run and then the app will launch. Have fun with this project feel free to add and modify to your prefrences.
+thats it the simulator will begin to run and then the app will launch. Have fun with this project feel free to add and modify to your prefrences. You should be greeted with the Login ViewController.
+
+![alt text](https://github.com/petemi09/SeniorProjectMobile/blob/master/Other%20Projects%20that%20helped%20me%20create%20this%20application/Screen%20Shot%202019-05-09%20at%204.14.05%20PM.png)
 
 ## Deployment
 
