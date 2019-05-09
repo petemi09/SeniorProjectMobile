@@ -64,7 +64,7 @@ Then in that new line that was created go into it and change it to "App Transpor
 ## Compiling and running the App
 
 In Xcode in the upper left hand corner you will see a 
-![alt text](https://raw.githubusercontent.com/petemi09/projectname/branch/path/to/img.png)
+![alt text](https://github.com/petemi09/SeniorProjectMobile/blob/master/Other%20Projects%20that%20helped%20me%20create%20this%20application/Screen%20Shot%202019-05-09%20at%209.01.27%20AM.png)
 
 Explain how to run the automated tests for this system
 
