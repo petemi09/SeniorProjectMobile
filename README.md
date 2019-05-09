@@ -1,6 +1,6 @@
 # Track Tracking
 
-Why? [![Swift](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+Why? [![Swift](https://img.shields.io/badge/Swift%20IOS%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 This is the repository to the mobile side of the Track Tracking application. This is intended for track athletes to keep track of thier times and record them. This application is written in Swift and is compiled in xcode 4.0. latest version of IOS that is compatiable is 10.0 and up.
 
 ## Getting Started
