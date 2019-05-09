@@ -92,6 +92,7 @@ This project is licensed under the Apple License - see the [LICENSE.md](LICENSE.
 
 ## Acknowledgments
 
+* Apple Documents
 * Udemey
 * Stack Overflow
 * And the almighty Youtube
