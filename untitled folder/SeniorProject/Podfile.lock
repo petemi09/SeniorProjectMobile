@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.8.1)
+  - BCryptSwift (1.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.40.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.40.0):
+    - FBSDKCoreKit
+  - Parse (1.17.2):
+    - Parse/Core (= 1.17.2)
+  - Parse/Core (1.17.2):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/FacebookUtils (1.17.2):
+    - Bolts (~> 1.9)
+    - FBSDKLoginKit (~> 4.33)
+    - Parse/Core
+  - Parse/TwitterUtils (1.17.2):
+    - Parse/Core
+  - Parse/UI (1.17.2):
+    - Parse/Core
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - BCryptSwift
+  - Parse
+  - Parse/FacebookUtils
+  - Parse/TwitterUtils
+  - Parse/UI
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BCryptSwift
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Parse
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BCryptSwift: f69992ea5685f6714260842c2770688043b89ab2
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: ae214474b25033399c131dc81d258e412582a2ba
+  FBSDKLoginKit: 7a1e411d46acc8834588eca437daf34de42e1d52
+  Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: fb9eefa0a63effe5b83f755c0fbdf65c9de407ab
+
+COCOAPODS: 1.6.1

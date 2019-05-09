@@ -1,0 +1,12 @@
+
+platform :ios, '10.0'
+#     use_frameworkds!
+
+target 'tester2' do
+use_frameworks!
+
+#pod 'Alamofire', '~> 5.0.0-beta.2'
+#pod 'SVProgressHUD'
+pod 'Alamofire'
+
+end
