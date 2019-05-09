@@ -420,7 +420,7 @@
                                 <rect key="frame" x="104" y="529" width="152" height="50"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="6ZH-T0-0cG"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="72" id="6ZH-T0-0cG"/>
                                     <constraint firstAttribute="width" constant="152" id="BSt-GF-el2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="47"/>
@@ -429,7 +429,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="35"/>
+                                        <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>

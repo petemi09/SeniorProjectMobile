@@ -26,6 +26,7 @@
 		6736A707226A2B57000BCF62 /* recordsV2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736A706226A2B57000BCF62 /* recordsV2VC.swift */; };
 		673761EC2283BBA700B18EF3 /* stopwatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673761EB2283BBA700B18EF3 /* stopwatchCell.swift */; };
 		67380E2F228117F50013A3AC /* RV2cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67380E2E228117F50013A3AC /* RV2cells.swift */; };
+		67AF60B92284A5DF009CB9F1 /* SeniorProjectTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF60B82284A5DF009CB9F1 /* SeniorProjectTestCase.swift */; };
 		FBBE14CE617488F13CE0BBD9 /* Pods_SeniorProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DEAFCB80CF7E4461D1D02A /* Pods_SeniorProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		6736A706226A2B57000BCF62 /* recordsV2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsV2VC.swift; sourceTree = "<group>"; };
 		673761EB2283BBA700B18EF3 /* stopwatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchCell.swift; sourceTree = "<group>"; };
 		67380E2E228117F50013A3AC /* RV2cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RV2cells.swift; sourceTree = "<group>"; };
+		67AF60B82284A5DF009CB9F1 /* SeniorProjectTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorProjectTestCase.swift; sourceTree = "<group>"; };
 		C01F16997EF6F20CCD7A6936 /* Pods-SeniorProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProject.debug.xcconfig"; path = "Target Support Files/Pods-SeniorProject/Pods-SeniorProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 		6730C9442254F8CE000D564C /* SeniorProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				67AF60B82284A5DF009CB9F1 /* SeniorProjectTestCase.swift */,
 				6730C9452254F8CE000D564C /* SeniorProjectTests.swift */,
 				6730C9472254F8CE000D564C /* Info.plist */,
 			);
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6730C9462254F8CE000D564C /* SeniorProjectTests.swift in Sources */,
+				67AF60B92284A5DF009CB9F1 /* SeniorProjectTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -159,30 +159,6 @@ class StopWatchVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         // elapsed part
         let currentState = f1 + ":" + f2 + "." + f3
         timeString.append(currentState)
-//        self.counterNumbers += 1
-//        if self.counterNumbers == 1 {
-//            //timeString[0] = currentState
-//            timeString.append(currentState)
-//        }
-//        if self.counterNumbers == 2 {
-//            //timeString[1] = currentState
-//            timeString.append(currentState)
-//        }
-//        if self.counterNumbers == 3 {
-//            //timeString[2] = currentState
-//            timeString.append(currentState)
-//        }
-//        if self.counterNumbers == 4 {
-//            timeString.append(currentState)
-//        }
-//        if self.counterNumbers == 5 {
-//            timeString.append(currentState)
-//            lapBtn.isHidden = true
-//            //stop()
-//            resetBtn.isEnabled = true
-//        }
-        //fakeSubmit.isHidden = true
-        //realSubmit.isHidden = false
         print(timeString)
         DispatchQueue.main.async {
             self.tableView.reloadData()
