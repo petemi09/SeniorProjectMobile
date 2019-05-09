@@ -2,7 +2,7 @@
 
 
 ## [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-## ## [![IOS 10.0+](https://img.shields.io/badge/IOS-10.0+-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+## ## [![IOS 10.0+](https://img.shields.io/badge/IOS-10.0-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 This is the repository to the mobile side of the Track Tracking application. This is intended for track athletes to keep track of thier times and record them. This application is written in Swift and is compiled in xcode 4.0. latest version of IOS that is compatiable is 10.0 and up.
 
 ## Getting Started
